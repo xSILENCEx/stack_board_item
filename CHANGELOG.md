@@ -9,3 +9,7 @@
 ## 0.0.1+4
 
 * Export tools
+
+## 0.0.1+5
+
+* Optimize content loading method
