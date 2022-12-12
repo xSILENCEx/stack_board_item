@@ -5,3 +5,7 @@
 ## 0.0.1+2
 
 * Add tools
+
+## 0.0.1+4
+
+* Export tools
