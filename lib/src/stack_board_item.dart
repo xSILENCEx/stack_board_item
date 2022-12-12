@@ -5,6 +5,8 @@ import 'package:flutter/painting.dart';
 
 import 'stack_item_status.dart';
 
+/// 为StackItem生成Id
+/// Generate Id for StackItem
 String _genId() {
   final DateTime now = DateTime.now();
   final int value = Random().nextInt(100000);
@@ -33,17 +35,30 @@ abstract class StackItem {
     required this.status,
   }) : id = '';
 
+  /// id
   final String id;
+
+  /// Size
   final Size? size;
+
+  /// Offset
   final Offset? offset;
+
+  /// Angle
   final double? angle;
+
+  /// Status
   final StackItemStatus? status;
 
+  /// 实例化后通过这个方法用Json获取新的实例
+  /// Get new instance by Json after instantiation
   StackItem fromJson(Map<String, dynamic> data);
 
-  StackItem updateBasic(
-      {Size? size, Offset? offset, double? angle, StackItemStatus? status});
+  /// 更新基础属性
+  /// Update basic attributes
+  StackItem updateBasic({Size? size, Offset? offset, double? angle, StackItemStatus? status});
 
+  /// to json
   Map<String, dynamic> toJson();
 
   @override
