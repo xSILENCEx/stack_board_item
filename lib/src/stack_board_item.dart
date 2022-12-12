@@ -56,7 +56,8 @@ abstract class StackItem {
 
   /// 更新基础属性
   /// Update basic attributes
-  StackItem updateBasic({Size? size, Offset? offset, double? angle, StackItemStatus? status});
+  StackItem updateBasic(
+      {Size? size, Offset? offset, double? angle, StackItemStatus? status});
 
   /// to json
   Map<String, dynamic> toJson();
