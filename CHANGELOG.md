@@ -17,3 +17,7 @@
 ## 0.0.1+6
 
 * Optimize export method
+
+## 0.0.1+7
+
+* Optimize content loading method
