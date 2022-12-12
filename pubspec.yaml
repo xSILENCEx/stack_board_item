@@ -1,6 +1,6 @@
 name: stack_board_item
 description: A Flutter package of stack board item
-version: 0.0.1
+version: 0.0.1+1
 homepage: https://github.com/xSILENCEx/stack_board_item
 
 environment:
