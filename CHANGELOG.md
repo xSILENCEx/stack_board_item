@@ -21,3 +21,7 @@
 ## 0.0.1+7
 
 * Optimize content loading method
+
+## 0.0.1+8
+
+* Modification details
