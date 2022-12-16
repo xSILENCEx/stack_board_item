@@ -28,4 +28,8 @@
 
 ## 0.0.1+9
 
-* Remove `fromJson`
+* Remove `fromJson()`
+
+## 0.0.1+10
+
+* Remove `StackItemContent fromJson()`
