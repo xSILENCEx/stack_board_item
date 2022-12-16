@@ -25,3 +25,7 @@
 ## 0.0.1+8
 
 * Modification details
+
+## 0.0.1+9
+
+* Remove `fromJson`

@@ -55,9 +55,6 @@ abstract class StackItem<T extends StackItemContent> {
   /// Content
   final T? content;
 
-  /// Get new instance by Json after instantiation
-  StackItem<T> fromJson(Map<String, dynamic> data);
-
   /// Update content and return new instance
   StackItem<T> copyWith({
     Size? size,
